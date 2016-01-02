@@ -16,6 +16,7 @@ endif
 
 " Set colorscheme to solarized (requires vim-colors-solarized)
 colorscheme solarized
+set background=dark
 " map togglebg key (F8) to toggle dark/light mode (requires vim-colors-solarized)
 call togglebg#map(g:auto_solarize_togglebg_key)
 
