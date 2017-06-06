@@ -64,4 +64,4 @@ Copyright (c) 2015-2017 ek9 <dev@ek9.co> (https://ek9.co).
 ## License
 
 Licensed under [MIT License](LICENSE).
-
+[0]: https://github.com/ek9/vim-auto-solarize
