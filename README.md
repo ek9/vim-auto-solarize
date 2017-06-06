@@ -1,11 +1,22 @@
-# vim-auto-solarize
+vim-auto-solarize
+=================
+
+[vim-auto-solarize][0] plugin automatically starts solarized dark or solarized
+light theme based on time of the day.
+
+## Install
+
+Install `vim-colors-solarized` and `vim-auto-solarize` using Vundle or
+Pathogen:
 
 ```vim
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'file:///vim-auto-solarize'
+Bundle 'ek9/vim-auto-solarize'
 ```
 
-## Configuration
+## Usage
+
+You have the following configuration options:
 
 - **g:auto_solarize_start_light** (Default: *'0700'*) - controls the time when
   light background will be activated. Format is HHMM (HH - hours (0-23); MM-
@@ -46,4 +57,11 @@ Bundle 'file:///vim-auto-solarize'
     ```vim
     let g:auto_solarize_check_on_save = 0
     ```
+## Authors
+
+Copyright (c) 2015-2017 ek9 <dev@ek9.co> (https://ek9.co).
+
+## License
+
+Licensed under [MIT License](LICENSE).
 
