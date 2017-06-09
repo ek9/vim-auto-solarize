@@ -16,6 +16,9 @@ Bundle 'ek9/vim-auto-solarize'
 
 ## Usage
 
+`F8` allows toggling background between light and dark. This key is configurable
+via an option listed below.
+
 You have the following configuration options:
 
 - **g:auto_solarize_start_light** (Default: *'0700'*) - controls the time when
